@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [5.1.1] - 2026-03-01
+
 ### Added
 
 - **`/web-ctl` plugin** — New plugin for browser automation and web testing. Headless browser control via Playwright with persistent encrypted sessions, human-in-the-loop auth handoff (including CAPTCHA detection and checkpoint mode), anti-bot measures (webdriver spoofing, random delays), WSL detection with Windows Chrome fallback, and prompt injection defense via `[PAGE_CONTENT: ...]` delimiters. Includes `web-session` agent, `web-auth` and `web-browse` skills, and the `/web-ctl` command. Available at [agent-sh/web-ctl](https://github.com/agent-sh/web-ctl).
